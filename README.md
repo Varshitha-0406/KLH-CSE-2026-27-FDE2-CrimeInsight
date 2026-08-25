@@ -14,11 +14,11 @@ The planned technology stack includes Python, PostgreSQL, Apache Kafka, Apache S
 
 ## Team Members
 
-| S.No. | Name | University ID |
-|------:|------|---------------|
-| 1 | Anakala Sarayu| 2420030249|
-| 2 | Manduri Varshitha | 2420030269 |
-| 3 | Nidumolu Veda Samhitha | 2420030468 |
+| S.No. | Name                   | University ID |
+| ----: | ---------------------- | ------------- |
+|     1 | Anakala Sarayu         | 2420030249    |
+|     2 | Manduri Varshitha      | 2420030269    |
+|     3 | Nidumolu Veda Samhitha | 2420030468    |
 
 ## Supervisor
 
@@ -38,25 +38,25 @@ The project focuses on important data engineering aspects such as data quality, 
 
 ## Objectives
 
-- Build a structured data engineering pipeline for crime-data processing and analysis.
-- Collect and prepare crime records from multiple sources, including batch and simulated streaming sources.
-- Apply data validation, cleaning, deduplication, and normalization to improve data quality.
-- Store and transform crime data into structured datasets suitable for analysis.
-- Develop analytical dashboards to identify crime trends, categories, locations, and time-based patterns.
+* Build a structured data engineering pipeline for crime-data processing and analysis.
+* Collect and prepare crime records from multiple sources, including batch and simulated streaming sources.
+* Apply data validation, cleaning, deduplication, and normalization to improve data quality.
+* Store and transform crime data into structured datasets suitable for analysis.
+* Develop analytical dashboards to identify crime trends, categories, locations, and time-based patterns.
 
 ---
 
 ## Technology Stack
 
-- **Python** – Crime-data generation, preparation, and supporting data-engineering tasks
-- **PostgreSQL** – Structured storage for raw and processed crime data
-- **Apache Kafka** – Streaming crime-data ingestion
-- **Apache Spark** – Large-scale data processing and transformation
-- **Apache Airflow** – Workflow scheduling and pipeline orchestration
-- **dbt** – Analytical transformations and data modelling
-- **Power BI** – Interactive dashboards and business intelligence
-- **Docker** – Containerized and consistent project environment
-- **Git & GitHub** – Version control and team collaboration
+* **Python** – Crime-data generation, preparation, and supporting data-engineering tasks
+* **PostgreSQL** – Structured storage for raw and processed crime data
+* **Apache Kafka** – Streaming crime-data ingestion
+* **Apache Spark** – Large-scale data processing and transformation
+* **Apache Airflow** – Workflow scheduling and pipeline orchestration
+* **dbt** – Analytical transformations and data modelling
+* **Power BI** – Interactive dashboards and business intelligence
+* **Docker** – Containerized and consistent project environment
+* **Git & GitHub** – Version control and team collaboration
 
 ---
 
@@ -101,29 +101,40 @@ Crime Data Sources
            |
            +--> Coordinates scheduled pipeline tasks
 ```
+
 The processing stages form part of the same end-to-end pipeline. Data validation, cleaning, processing, transformation, and modelling are connected stages within the overall workflow.
 
-Current Phase Status
+## Current Phase Status
 
-Current Phase: Post Review 1 – Project Development
+**Current Phase: Post Review 1 – Project Development**
 
-Completed
-Finalized the CrimeInsight project concept and objectives
-Prepared the project abstract and introduction
-Defined the proposed data engineering architecture
-Selected the initial technology stack
-Completed the Review 1 presentation
-Completed the initial literature survey
-In Progress
-GitHub repository organization
-Project folder and development environment setup
-Planning of crime-data sources and dataset structure
-Planned
-Generate and prepare crime datasets
-Implement batch and streaming ingestion
-Develop the processing and analytical pipeline
-Build the Power BI dashboard and evaluate the results
-Repository Structure
+### Completed
+
+* Finalized the CrimeInsight project concept and objectives
+* Prepared the project abstract and introduction
+* Defined the proposed data engineering architecture
+* Selected the initial technology stack
+* Completed the Review 1 presentation
+* Completed the initial literature survey
+
+### In Progress
+
+* GitHub repository organization
+* Project folder and development environment setup
+* Planning of crime-data sources and dataset structure
+
+### Planned
+
+* Generate and prepare crime datasets
+* Implement batch and streaming ingestion
+* Develop the processing and analytical pipeline
+* Build the Power BI dashboard and evaluate the results
+
+---
+
+## Repository Structure
+
+```text
 CrimeInsight/
 │
 ├── src/
@@ -142,33 +153,44 @@ CrimeInsight/
 │   └── Review presentations and project reports
 │
 └── README.md
+```
 
 Dataset files containing sensitive, restricted, or licensed information will not be committed to the repository. Where required, the corresponding data source or instructions for obtaining the dataset will be documented instead.
 
-Environment Requirements
+---
+
+## Environment Requirements
 
 The planned development environment includes:
 
-Python 3.x
-PostgreSQL
-Apache Kafka
-Apache Spark
-Apache Airflow
-dbt
-Power BI Desktop
-Docker
-Git
+* Python 3.x
+* PostgreSQL
+* Apache Kafka
+* Apache Spark
+* Apache Airflow
+* dbt
+* Power BI Desktop
+* Docker
+* Git
 
 Exact package versions and configuration details will be documented as implementation progresses.
 
-Setup Instructions
-Clone the Repository
+---
+
+## Setup Instructions
+
+### Clone the Repository
+
+```bash
 git clone <repository-url>
 cd <repository-folder>
-Execution Instructions
+```
+
+## Execution Instructions
 
 The intended execution sequence of the project is:
 
+```text
 Prepare Crime Data
        ↓
 Data Ingestion
@@ -182,6 +204,7 @@ Processing & Transformation
 Analytical Data
        ↓
 Power BI Dashboard
+```
 
 Apache Airflow will coordinate the applicable pipeline tasks and scheduled processing activities.
 
