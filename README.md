@@ -100,6 +100,7 @@ Crime Data Sources
         Airflow
            |
            +--> Coordinates scheduled pipeline tasks
+```
 The processing stages form part of the same end-to-end pipeline. Data validation, cleaning, processing, transformation, and modelling are connected stages within the overall workflow.
 
 Current Phase Status
