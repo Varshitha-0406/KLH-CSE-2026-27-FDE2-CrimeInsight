@@ -182,8 +182,8 @@ Exact package versions and configuration details will be documented as implement
 ### Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/Varshitha-0406/KLH-CSE-2026-27-FDE2-CrimeInsight.git
+cd KLH-CSE-2026-27-FDE2-CrimeInsight
 ```
 
 ## Execution Instructions
